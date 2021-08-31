@@ -1,0 +1,25 @@
+{
+  "name": "fs-simple",
+  "version": "1.0.0",
+  "description": "A simpler interface to interacting with files on the system.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinzan-vdm/fs-simple.git"
+  },
+  "keywords": [
+    "fs"
+  ],
+  "author": "Zinzan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zinzan-vdm/fs-simple/issues"
+  },
+  "homepage": "https://github.com/zinzan-vdm/fs-simple#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2"
+  }
+}
