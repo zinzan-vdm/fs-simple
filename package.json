@@ -1,6 +1,6 @@
 {
   "name": "fs-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simpler interface to interacting with files on the system.",
   "main": "index.js",
   "repository": {

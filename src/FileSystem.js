@@ -76,7 +76,7 @@ class Path {
     const iAbs = path.absolute;
     const tAbs = this.absolute;
 
-    return tAbs.startsWith(iAbs + '/');
+    return tAbs.startsWith(iAbs + '/') || tAbs.startsWith(iAbs + '\\');
   }
 
   is(path) {
@@ -105,7 +105,7 @@ class Path {
     const iAbs = path.absolute;
     const tAbs = this.absolute;
 
-    return Path.from(tAbs.replace(iAbs + '/', ''));
+    return Path.from(tAbs.replace(new RegExp(`${iAbs}[/\\\\]`), ''));
   }
 
   get absolute() {
